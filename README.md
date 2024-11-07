@@ -1,5 +1,5 @@
 # plusコマンド
-![test](https://github.com/taku0225@DESKTOP-K0AQGUB/robosys2024/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test.yml/badge.svg)
 
 ## 必要なソフトフェア
 - Python
