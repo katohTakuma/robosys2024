@@ -1,3 +1,3 @@
 # plusコマンド
-![test]
+! [test]
 
