@@ -43,10 +43,15 @@
 - ©　2024 katoh takuma
 ### 参考記事
  [Pythonで大文字・小文字を操作する文字列メソッド一覧](https://note.nkmk.me/python-capitalize-lower-upper-title/#upper)
+ 
  [大文字と小文字を変換する](https://www.javadrive.jp/python/string/index12.html)
+ 
  [【超初心者向け】Pythonのテストの書き方](https://qiita.com/KENTAROSZK/items/ae40bd509d0c114c3519)
+ 
  [リポジトリをクローンする](https://docs.github.com/ja/repositories/creating-and-managing-repositories/cloning-a-repository)
+ 
 [初心者はまずREADMEを書け](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)
+
 [Pythonのif __name__ == '__main__'の意味と使い方](https://note.nkmk.me/python-if-name-main/)
 
 
