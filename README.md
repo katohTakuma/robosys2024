@@ -8,4 +8,13 @@
 ## テスト環境
 - Ubuntu 24.04 LTS
 
+
 ©　2024 Takuma Katou
+# homework1コマンド
+![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test1.yml/badge.svg)
+
+
+## 必要なソフトフェア
+
+#### テスト環境
+- Ubuntu 24.04 LTS
