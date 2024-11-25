@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 katoh takuma
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 def process_input(input_text):
