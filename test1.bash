@@ -9,13 +9,13 @@ import sys
 
 def test_process_input():
     try:
-        #テスト対象のスクリプトを実行し、標準入力に文字列を渡して出力を確認
+        # テスト対象のスクリプトを実行し、標準入力に文字列を渡して出力を確認
         input_text = "hello world\n"
         expected_output = "HELLO WORLD\n"
 
         result = subprocess.run(
-            ["python3", "homework1.py"],
-	    input=input_text,
+            ["python3", "homework1.py"],  # ここでテストするPythonスクリプトを指定
+            input=input_text,
             text=True,
             capture_output=True
         )
@@ -26,16 +26,16 @@ def test_process_input():
     except Exception as e:
         # エラーが発生した場合はエラーメッセージを表示して1を返す
         print(f"Test failed: {e}")
-        res=1
+        sys.exit(1)
 
     # 正常終了時は0を返す
-    res=0
+    sys.exit(0)
 
 # テスト関数を実行
 test_process_input()
 EOF
 
-# Pythonスクリプトの終了ステータスを取得し、それをBashの終了コード
-[ "${res}" = 0 ] && echo ok
-exit "$res"
+# Pythonスクリプトの終了ステータスを取得し、それをBashの終了コードとして使う
+exit_code=$?
+exit $exit_code
 
