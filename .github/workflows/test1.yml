@@ -1,16 +1,24 @@
 # SPDX-FileCopyrightText: 2024 Katoh Takuma
 # SPDX-License-Identifier: BSD-3-Clause
 
-name: test1
-on: push
+name: Homework1 Test
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-        test:
-                runs-on: ubuntu-latest
-                strategy:
-                        matrix:
-                                python-version: ["3.7", "3.8", "3.9", "3.10"]
-                steps:
-                        - uses: actions/checkout@v3
-                        - name: All test for homework1
-                          run: bash -xv ./test1.bash
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.7", "3.8", "3.9", "3.10"]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Execute homework1 tests
+        run: |
+          chmod +x ./test1.bash
+          ./test1.bash
 
