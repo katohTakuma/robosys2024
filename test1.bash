@@ -10,7 +10,7 @@ def test_process_input():
     expected_output = "HELLO WORLD\n"
 
     result = subprocess.run(
-        ["python3", "your_script.py"],  # ここでテストするPythonスクリプトを指定
+        ["python3", "homework1.py"],  # ここでテストするPythonスクリプトを指定
         input=input_text,
         text=True,
         capture_output=True
