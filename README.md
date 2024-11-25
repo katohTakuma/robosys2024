@@ -5,7 +5,8 @@
 # homework1コマンド
 ![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test1.yml/badge.svg)
 ## 概要
- homework1は課題1のために作成したコマンドです。標準入力から与えられた文字列(英文)をすべて大文字に変換し、標準出力に出力します。
+- homework1は課題1のために作成したコマンドです。
+- 標準入力から与えられた文字列(英文)をすべて大文字に変換し、標準出力に出力します。
  
 ## 使い方
 ### インストール方法
@@ -40,7 +41,7 @@
  https://www.javadrive.jp/python/string/index12.html
  https://qiita.com/KENTAROSZK/items/ae40bd509d0c114c3519
  https://docs.github.com/ja/repositories/creating-and-managing-repositories/cloning-a-repository
-
+https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
 https://note.nkmk.me/python-if-name-main/
 
 ©　2024 katoh takuma
