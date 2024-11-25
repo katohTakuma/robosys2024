@@ -40,6 +40,7 @@
  https://www.javadrive.jp/python/string/index12.html
  https://qiita.com/KENTAROSZK/items/ae40bd509d0c114c3519
  https://docs.github.com/ja/repositories/creating-and-managing-repositories/cloning-a-repository
+
 https://note.nkmk.me/python-if-name-main/
 
 ©　2024 katoh takuma
