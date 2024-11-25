@@ -2,26 +2,18 @@
 # SPDX-FileCopyrightText: 2024 katoh takuma
 # SPDX-License-Identifier: BSD-3-Clause
 
-# PythonコードをPythonスクリプトとして直接実行し、エラーハンドリングを簡素化
-python3 - <<EOF
-import subprocess
-import sys
+input_text="hello world"
+expected_output="HELLO WORLD"
 
-# テスト対象のスクリプトを実行し、標準入力に文字列を渡して出力を確認
-input_text = "hello world\n"
-expected_output = "HELLO WORLD\n"
+# homework1.pyを実行し、標準入力に文字列を渡して標準出力を取得
+output=$(echo "$input_text" | python3 homework1.py)
 
-result = subprocess.run(
-    ["python3", "homework1.py"],  # ここでテストするPythonスクリプトを指定
-    input=input_text,
-    text=True,
-    capture_output=True
-)
-
-# 結果の標準出力を確認し、異常時には1、正常時には0を返す
-sys.exit(0 if result.stdout == expected_output else 1)
-EOF
-
-# Pythonスクリプトの終了コードをそのままBashの終了コードにする
-exit $?
+# 大文字変換された結果が期待通りかをチェック
+if [ "$output" = "$expected_output" ]; then
+    echo "Test passed!"
+    exit 0
+else
+    echo "Test failed! Expected '$expected_output', but got '$output'"
+    exit 1
+fi
 
