@@ -1,4 +1,6 @@
-# .github/workflows/test.yml
+# SPDX-FileCopyrightText: 2024 Katoh Takuma
+# SPDX-License-Identifier: BSD-3-Clause
+
 name: test1
 on: push
 jobs:
