@@ -36,6 +36,11 @@
 - Ubuntu 24.04 LTS
   
 ## 権利関係・謝辞
+###権利
+- 本ソフトウェアパッケージは、3条項BSDライセンスのもとで再配布や利用が認められています
+- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド（CC-BY-SA 4.0ライセンス）を基に自身の著作として作成されたものです
+  - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#8
+- ©　2024 katoh takuma
 ### 参考記事
  https://note.nkmk.me/python-capitalize-lower-upper-title/#upper
  https://www.javadrive.jp/python/string/index12.html
@@ -44,4 +49,4 @@
 https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
 https://note.nkmk.me/python-if-name-main/
 
-©　2024 katoh takuma
+
