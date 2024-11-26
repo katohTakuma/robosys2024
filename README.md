@@ -48,6 +48,7 @@
 
 ### テストの実行結果
 テストは、以下のコマンドで手動で実行することもできます。
+
 echo "hello world" | python3 homework1.py
 
 出力予想: HELLO WORLD
