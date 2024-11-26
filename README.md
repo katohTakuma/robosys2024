@@ -58,7 +58,7 @@ echo "hello world" | homework1.py
 ## 権利関係・謝辞
 ### 権利
 - 本ソフトウェアパッケージは、3条項BSDライセンスのもとで再配布や利用が認められています
-- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド(© 2022 Ryuichi Ueda)（CC-BY-SA 4.0ライセンス)を基に自身の著作として作成されたものです
+- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド(© 2022 Ryuichi Ueda)（CC-BY-SA 4.0)を基に自身の著作として作成されたものです
   - [著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#10)
   - [GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#17)
 - ©　2024 katoh takuma
