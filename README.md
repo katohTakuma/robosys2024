@@ -38,7 +38,7 @@
 ## 権利関係・謝辞
 ### 権利
 - 本ソフトウェアパッケージは、3条項BSDライセンスのもとで再配布や利用が認められています
-- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド（CC-BY-SA 4.0ライセンス）を基に自身の著作として作成されたものです
+- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド（CC-BY-SA 4.0ライセンス)を基に自身の著作として作成されたものです
   - [GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#8)
 - ©　2024 katoh takuma
 
