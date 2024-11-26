@@ -5,7 +5,7 @@
 input_text="hello world"
 expected_output="HELLO WORLD"
 
-output=$(echo "$input_text" | python3 homework1.py)
+output=$(echo "$input_text" | homework1.py)
 
 if [ "$output" = "$expected_output" ]; then
     echo "OK"
