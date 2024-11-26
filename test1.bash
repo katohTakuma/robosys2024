@@ -13,7 +13,7 @@ if [ "$output" = "$expected_output" ]; then
     echo "OK"
     exit 0
 else
-    echo "failed"
+    echo "'正しい出力'$expected_output' 今回の出力 '$output'""
     exit 1
 fi
 
