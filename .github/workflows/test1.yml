@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Execute homework1 tests
+      - name: homework1 tests
         run: |
           chmod +x ./test1.bash
           ./test1.bash
