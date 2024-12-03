@@ -2,7 +2,7 @@
 ![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test.yml/badge.svg)
 - 今回の課題には関係ないため一時的に削除しました。
 
-# homework1コマンド
+# OMOJIコマンド
 ![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test1.yml/badge.svg)
 ## 概要
 - homework1は課題1のために作成したコマンドです。
