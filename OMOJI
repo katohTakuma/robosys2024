@@ -5,10 +5,13 @@
 import sys
 
 def process_input(input_text):
-    return input_text.strip().upper()
+    input_text = input_text.strip()
+    if not input_text.isalpha():  # アルファベット以外が含まれている場合はエラー
+        return "ERROR"
+    return input_text.upper()
 
 if __name__ == "__main__":
-        input_text = sys.stdin.read()
-        processed_text = process_input(input_text)
-        print(processed_text)
+    input_text = sys.stdin.read()
+    processed_text = process_input(input_text)
+    print(processed_text)
 
