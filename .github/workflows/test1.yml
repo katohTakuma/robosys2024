@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2024 Katoh Takuma
 # SPDX-License-Identifier: BSD-3-Clause
 
-name: Homework1 Test
+name: OMOJI Test
 on:
   push:
     branches:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: homework1 tests
+      - name: OMOJI tests
         run: |
           chmod +x ./test1.bash
           ./test1.bash
