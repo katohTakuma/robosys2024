@@ -26,8 +26,6 @@
 ```
 　　出力予想：HOMEWORK
 
-  HELLO WORLD
- 
 ## 必要なソフトフェア
  - Python
    - テスト済みのバージョン: 3.7～3.10
@@ -43,7 +41,6 @@
 echo "hello world" | homework1.py
 ```
 出力予想: HELLO WORLD
-
 
   
 ## 権利関係・謝辞
