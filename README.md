@@ -5,20 +5,23 @@
 # OMOJIコマンド
 ![test](https://github.com/katohTakuma/robosys2024/actions/workflows/test1.yml/badge.svg)
 ## 概要
-- homework1は課題1のために作成したコマンドです。
+- OMOJIは課題1のために作成したコマンドです。
 - 標準入力から与えられた文字列(英文)をすべて大文字に変換し、標準出力に出力します。
  
 ## 使い方
-### 
+ - 以下を実行します。
 ```bash
   $git clone https://github.com/katohTakuma/robosys2024.git
   
   $cd ~/robosys2024/
+
+　$chmod +x OMOJI
 ```
 ### 起動手順
  - 〇〇の部分に英文を入力すると、小文字を大文字に変換します。大文字と小文字が混在していても使用可能です。
 ```bash
-   $echo "〇〇" | ./homework1.py
+   $./OMOJI
+   $echo "〇〇" | ./OMOJI
 ```
 
 
