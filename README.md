@@ -20,16 +20,11 @@
 ### 起動手順
  - 〇〇の部分に英文を入力すると、小文字を大文字に変換します。大文字と小文字が混在していても使用可能です。
 
- 　- 具体例(Homework)
+  - 具体例(Homework)
 ```bash
    $echo "Homework" | ./OMOJI
 ```
 　　出力予想：HOMEWORK
-
-
-
-### 出力例
-- 上記の〇〇の部分に「hello world」と入力した場合以下のように出力されます。
 
   HELLO WORLD
  
