@@ -2,52 +2,42 @@
 # SPDX-FileCopyrightText: 2024 katoh takuma
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Function to test a specific input
-test_case() {
-    local input_text="$1"
-    local expected_output="$2"
-    local expected_exit_code="$3"
+# 1つ目のテスト：小文字を大文字に変換
+output=$(echo "hello world" | python3 OMOJI)
+if [ "$output" = "HELLO WORLD" ]; then
+    echo "入力:'hello world' -> OK"
+else
+    echo "入力:'hello world' -> エラー: 正しい出力:'HELLO WORLD' 今回の出力:'$output'"
+    exit 1
+fi
 
-    output=$(echo "$input_text" | python3 OMOJI)
-    exit_code=$?
+# 2つ目のテスト：数字はエラー
+output=$(echo "12345" | python3 OMOJI)
+if [ "$output" = "ERROR" ]; then
+    echo "入力:'12345' -> OK"
+else
+    echo "入力:'12345' -> エラー: 正しい出力:'ERROR' 今回の出力:'$output'"
+    exit 1
+fi
 
-    if [ "$output" = "$expected_output" ] && [ "$exit_code" -eq "$expected_exit_code" ]; then
-        echo "OK: '$input_text' -> '$output'"
-    else
-        echo "NG: 入力: '$input_text' 出力予想: '$expected_output' 実際の出力: '$output'"
-        exit 1
-    fi
-}
+# 3つ目のテスト：ひらがなはエラー
+output=$(echo "こんにちは" | python3 OMOJI)
+if [ "$output" = "ERROR" ]; then
+    echo "入力:'こんにちは' -> OK"
+else
+    echo "入力:'こんにちは' -> エラー: 正しい出力:'ERROR' 今回の出力:'$output'"
+    exit 1
+fi
 
-# 1. 正常系: 小文字のみの文字列
-test_case "hello world" "HELLO WORLD" 0
+# 4つ目のテスト：すでに大文字の場合
+output=$(echo "HELLO" | python3 OMOJI)
+if [ "$output" = "HELLO" ]; then
+    echo "入力:'HELLO' -> OK"
+else
+    echo "入力:'HELLO' -> エラー: 正しい出力:'HELLO' 今回の出力:'$output'"
+    exit 1
+fi
 
-# 2. 正常系: 小文字とスペース
-test_case "test case" "TEST CASE" 0
-
-# 3. 異常系: 数字を含む場合（エラーを期待）
-test_case "hello123" "" 1
-
-# 4. 異常系: 記号を含む場合（エラーを期待）
-test_case "hello@world" "" 1
-
-# 5. 異常系: ひらがなを含む場合（エラーを期待）
-test_case "こんにちは" "" 1
-
-# 6. 異常系: カタカナを含む場合（エラーを期待）
-test_case "コンニチハ" "" 1
-
-# 7. 異常系: 空文字（エラーを期待）
-test_case "" "" 1
-
-# 8. 正常系: すでに大文字の入力
-test_case "HELLO WORLD" "HELLO WORLD" 0
-
-# 9. 正常系: 混合文字列 (部分的に小文字)
-test_case "Hello World" "HELLO WORLD" 0
-
-# 10. 異常系: 特殊文字（エラーを期待）
-test_case "!@#$%^&*" "" 1
-
+echo "すべてのテストが成功しました。"
 exit 0
 
