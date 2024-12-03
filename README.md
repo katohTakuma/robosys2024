@@ -11,18 +11,18 @@
 ## 使い方
  - 以下を実行します。
 ```bash
-  $git clone https://github.com/katohTakuma/robosys2024.git
+  $ git clone https://github.com/katohTakuma/robosys2024.git
   
-  $cd ~/robosys2024/
+  $ cd ~/robosys2024/
 
-　$chmod +x OMOJI
+　$ chmod +x OMOJI
 ```
 ### 起動手順
  - 〇〇の部分に英文を入力すると、小文字を大文字に変換します。大文字と小文字が混在していても使用可能です。
 
   - 具体例(Homework)
 ```bash
-   $echo "Homework" | ./OMOJI
+   $ echo "Homework" | ./OMOJI
 ```
 　　出力予想：HOMEWORK
 
