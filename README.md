@@ -10,15 +10,16 @@
  
 ## 使い方
 ### 
+```bash
   $git clone https://github.com/katohTakuma/robosys2024.git
   
   $cd ~/robosys2024/
-
+```
 ### 起動手順
  - 〇〇の部分に英文を入力すると、小文字を大文字に変換します。大文字と小文字が混在していても使用可能です。
-
+```bash
    $echo "〇〇" | ./homework1.py
-
+```
 
 
 ### 出力例
@@ -29,26 +30,25 @@
 ## 必要なソフトフェア
  - Python
    - テスト済みのバージョン: 3.7～3.10
- - Git
 
 ## テスト環境
-### GitHub Actionsによる自動テスト
-
-このコマンドは、GitHub Actionsを使用して自動テストが実行されます。
+- Ubuntu 24.04 LTS
 
 ### テストの実行結果
+
 テストは、以下のコマンドで手動で実行することもできます。
 
+```bash
 echo "hello world" | homework1.py
-
+```
 出力予想: HELLO WORLD
 
-- Ubuntu 24.04 LTS
+
   
 ## 権利関係・謝辞
 ### 権利
 - 本ソフトウェアパッケージは、3条項BSDライセンスのもとで再配布や利用が認められています
-- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド(© 2022 Ryuichi Ueda)（CC-BY-SA 4.0)を基に自身の著作として作成されたものです
+- 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド(© 2024 Ryuichi Ueda)（CC-BY-SA 4.0)を基に自身の著作として作成されたものです
   - [著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#10)
   - [GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#17)
 - ©　2024 katoh takuma
