@@ -20,11 +20,19 @@
 ### 起動手順
   - 英文を入力すると、小文字を大文字に変換します。大文字と小文字が混在していても使用可能です。
 
-  - 具体例(Homework)
+  - 例(Homework，hello world)
 ```bash
    $ echo "Homework" | ./OMOJI
 ```
-　　出力予想：HOMEWORK
+出力予想：HOMEWORK
+
+
+```bash
+   $ echo "hello world" | ./OMOJI
+```
+出力予想: HELLO WORLD
+
+　　
 
 ## 必要なソフトウェア
  - Python
@@ -33,14 +41,8 @@
 ## テスト環境
 - Ubuntu 24.04 LTS
 
-### テストの実行結果
 
-テストは、以下のコマンドで手動で実行できます。
 
-```bash
-echo "hello world" | ./OMOJI
-```
-出力予想: HELLO WORLD
 
   
 ## 権利関係・謝辞
