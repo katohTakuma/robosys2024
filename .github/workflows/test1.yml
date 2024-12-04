@@ -1,6 +1,3 @@
-# SPDX-FileCopyrightText: 2024 Katoh Takuma
-# SPDX-License-Identifier: BSD-3-Clause
-
 name: OMOJI Test
 on:
   push:
