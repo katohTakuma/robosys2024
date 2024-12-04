@@ -3,10 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
+import re
 
 def process_input(input_text):
-    cleaned_text = input_text.strip().replace(" ", "")  # 空白を除いた文字列を確認
-    if not cleaned_text.isalpha():  # 英字以外が含まれている場合
+    cleaned_text = input_text.strip().replace(" ", "")  # 空白を除去
+    if not re.match(r'^[a-zA-Z]*$', cleaned_text):  # 英字(A-Z, a-z)以外が含まれている場合
         return "変換できません"
     return input_text.strip().upper()  # すべて大文字に変換して返す
 
