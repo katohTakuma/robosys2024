@@ -10,7 +10,7 @@
 - 英文以外を入力すると「変換できません」と出力されます。
  
 ## 使い方
- - 以下を実行します。
+ - 以下を実行します
 ```bash
   $ git clone https://github.com/katohTakuma/robosys2024.git
   
