@@ -6,10 +6,10 @@ import sys
 import re
 
 def process_input(input_text):
-    cleaned_text = input_text.strip().replace(" ", "")  # 空白を除去
-    if not re.match(r'^[a-zA-Z]*$', cleaned_text):  # 英字(A-Z, a-z)以外が含まれている場合
+    cleaned_text = input_text.strip().replace(" ", "")  
+    if not re.match(r'^[a-zA-Z]*$', cleaned_text):
         return "変換できません"
-    return input_text.strip().upper()  # すべて大文字に変換して返す
+    return input_text.strip().upper()
 
 if __name__ == "__main__":
     input_text = sys.stdin.read()
