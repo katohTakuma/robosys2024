@@ -7,6 +7,7 @@
 ## 概要
 - OMOJIは課題1のために作成したコマンドです。
 - 標準入力から与えられた文字列(英文)をすべて大文字に変換し、標準出力に出力します。
+- 英文以外を入力すると「変換できません」と出力されます。
  
 ## 使い方
  - 以下を実行します。
@@ -42,12 +43,10 @@
 - Ubuntu 24.04 LTS
 
 
-
-
   
 ## 権利関係
 ### 権利
-- ©　2024 katoh takuma
+- © 2024 katoh takuma
 - 本ソフトウェアパッケージは、3条項BSDライセンスのもとで再配布や利用が認められています
 - 本パッケージのコードは、Ryuichi Ueda氏の許可を得て、下記のスライド(© 2024 Ryuichi Ueda)（CC-BY-SA 4.0)を一部参考にし、自身の著作として作成されたものです
   - [著作権とライセンス｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#10)
@@ -55,22 +54,22 @@
 
 
 ### 参考記事
- -   [著作権とライセンス｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#25)　閲覧日2024年10月24日
+ -   [著作権とライセンス｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#25)　
 
- -   [ソフトウェアのテスト｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html#16)　閲覧日2024年10月31日
+ -   [ソフトウェアのテスト｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html#16)　
 
- -   [GitHubでのテスト｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#17)　閲覧日2024年11月7日
+ -   [GitHubでのテスト｜上田 隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#17)　
 
- - [Pythonで大文字・小文字を操作する文字列メソッド一覧｜nkmk.me](https://note.nkmk.me/python-capitalize-lower-upper-title/#upper)　閲覧日2024年11月24日
+ - [Pythonで大文字・小文字を操作する文字列メソッド一覧｜nkmk.me](https://note.nkmk.me/python-capitalize-lower-upper-title/#upper)　
  
- - [大文字と小文字を変換する｜TATSUO IKURA](https://www.javadrive.jp/python/string/index12.html)　閲覧日2024年11月24日
+ - [大文字と小文字を変換する｜TATSUO IKURA](https://www.javadrive.jp/python/string/index12.html)　
  
- - [【超初心者向け】Pythonのテストの書き方｜@KENTAROSZK](https://qiita.com/KENTAROSZK/items/ae40bd509d0c114c3519)　閲覧日2024年11月25日
+ - [【超初心者向け】Pythonのテストの書き方｜@KENTAROSZK](https://qiita.com/KENTAROSZK/items/ae40bd509d0c114c3519)
  
- - [初心者はまずREADMEを書け｜@Canard_engineer_c_cpp](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)　閲覧日2024年11月26日
+ - [初心者はまずREADMEを書け｜@Canard_engineer_c_cpp](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)
 
  - [分かりやすいpythonの正規表現の例｜@luohao0404
-(浩 羅)](https://qiita.com/arucraft/items/7c8811b5cf37d700adc4)　閲覧日2024年12月4日
-   
- - [Pythonのモジュールreで正規表現操作を行う方法【初心者向け】｜太田和樹](https://magazine.techacademy.jp/magazine/19307)　閲覧日2024年12月4日
+(浩 羅)](https://qiita.com/arucraft/items/7c8811b5cf37d700adc4)
+
+ - [Pythonのモジュールreで正規表現操作を行う方法【初心者向け】｜太田和樹](https://magazine.techacademy.jp/magazine/19307)　
 
